@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tamanna’s Bakes and Cakes</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff0f5;
+      color: #4b2c2c;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ffc0cb;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+
+    .gallery div {
+      background: #fff5f7;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #ffd6e7;
+      padding: 1.5rem;
+      font-size: 1rem;
+    }
+
+    a {
+      color: #d20082;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tamanna’s Bakes and Cakes</h1>
+    <p>Deliciously Homemade | Pink & Sweet</p>
+  </header>
+
+  <div class="gallery">
+    <div>
+      <h3>Tiramisu</h3>
+      <img src="images/tiramisu.jpg" alt="Tiramisu" />
+    </div>
+    <div>
+      <h3>Mawa lava</h3>
+      <img src="images/mawa_lava.jpg" alt="Mawa Lava" />
+    </div>
+    <div>
+      <h3>Brownie</h3>
+      <img src="images/brownie.jpg" alt="Brownie" />
+    </div>
+    <div>
+      <h3>Custom cakes</h3>
+      <img src="images/custom_cake.jpg" alt="Custom Cakes" />
+    </div>
+  </div>
+
+  <footer>
+    <p>Follow us on Instagram <a href="https://instagram.com/tamannasbakesandcakes" target="_blank">@tamannasbakesandcakes</a></p>
+    <p>© 2025 Tamanna’s Bakes and Cakes</p>
+  </footer>
+</body>
+</html>
